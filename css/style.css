@@ -420,6 +420,7 @@ ul{
 body{
 
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),url('../img/bg-2.jpg');
+    background-repeat:no-repeat;
     background-attachment:fixed;
     background-size: cover
 }
