@@ -10,7 +10,7 @@ $('a[href*="#"]').on('click', function (e) {
   )
 })  
 var
-  words = ['<p>Passionnée de développement Web et de nouvelles technologies, ','je suis particulièremment intéressé par les frameworks modernes mettant en avant les bonnes pratiques de code.','je trouve que ce domaine est plein d innovation et de créativité !</p>'],
+  words = ['<p>Passionate about web development and new technologies, ','I am particularly interested in modern frameworks highlighting good code practices.','I find this domain to be full of innovation and creativity!</p>'],
   part,
   i = 0,
   offset = 0,
