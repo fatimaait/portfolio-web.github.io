@@ -113,7 +113,7 @@ $(function()
         }//else
     }
 
-  $('#reused_form').submit(function(e)
+ /* $('#reused_form').submit(function(e)
       {
         e.preventDefault();
 
@@ -137,5 +137,5 @@ $(function()
             });
 
       });
-});
+});*/
 
