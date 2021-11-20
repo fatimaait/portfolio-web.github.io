@@ -178,12 +178,10 @@ footer h3, footer h5, footer p{
 footer ul li  {
   color: white
 }
-
-/*section service*/
-
-
-
-
+a:hover{
+	text-decoration : none;
+	color:rgb(134, 190, 197);
+}
 .flex-container {
   margin-left: 1VW;
   margin-right:1VW;
