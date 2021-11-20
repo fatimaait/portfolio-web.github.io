@@ -51,6 +51,45 @@ h1{
   font-size: 30px;
   line-height: 42px;
 }
+#parallelogram1 {
+  width:100px;
+  height: 50px;
+  margin: 5px 0 -40px -70px;
+  -webkit-transform: skew(50deg);
+  -moz-transform: skew(50deg);
+  -o-transform: skew(50deg);
+  background: rgb(134, 190, 197);
+  overflow: hidden;
+  position: relative;
+  padding: 0px !important;
+  z-index:999
+}
+#parallelogram {
+  width:100px;
+  height: 50px;
+  margin: 10px 0 -30px -70px;
+  -webkit-transform: skew(50deg);
+  -moz-transform: skew(50deg);
+  -o-transform: skew(50deg);
+  background: rgb(0, 177, 201);
+  overflow: hidden;
+  position: relative;
+  padding: 0px !important;
+  z-index:999
+}
+#parallelogram2 {
+  width:100px;
+  height: 50px;
+  margin: 1px 0 -30px -70px;
+  -webkit-transform: skew(50deg);
+  -moz-transform: skew(50deg);
+  -o-transform: skew(50deg);
+  background: rgb(3, 88, 99);
+  overflow: hidden;
+  position: relative;
+  padding: 0px !important;
+  z-index:999
+}
 .menu-contact li{
 float: left;
 padding: 10px 20px
