@@ -18,7 +18,7 @@ var
   forwards = true,
   skip_count = 0,
   skip_delay = 4,
-  speed = 30;
+  speed = 70;
 
 var wordflick = function(){
   setInterval(function(){
@@ -113,10 +113,9 @@ $(function()
         }//else
     }
 
- /* $('#reused_form').submit(function(e)
+  $('#reused_form').submit(function(e)
       {
         e.preventDefault();
-
         $form = $(this);
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
@@ -137,5 +136,5 @@ $(function()
             });
 
       });
-});*/
+});
 
