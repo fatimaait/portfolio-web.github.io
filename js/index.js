@@ -1,3 +1,11 @@
+window.onload = function(){
+    //hide the preloader
+    document.querySelector(".se-pre-con").style.display = "none";
+}
+$(document).ready(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");
+});
 
 $('a[href*="#"]').on('click', function (e) {
   e.preventDefault()
@@ -138,12 +146,5 @@ $(function()
 
       });
 });
-window.onload = function(){
-    //hide the preloader
-    document.querySelector(".se-pre-con").style.display = "none";
-}
-$(document).ready(function() {
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");
-});
+
 
